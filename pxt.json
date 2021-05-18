@@ -7,7 +7,9 @@
     },
     "files": [
         "README.md",
-        "main.ts"
+        "main.ts",
+        "_locales/ru/pxt-it-remote-jsdoc-strings.json",
+        "_locales/ru/pxt-it-remote-strings.json"
     ],
     "testFiles": [
         "test.ts"
