@@ -55,7 +55,7 @@ const enum IrButton {
  * Write the date: 2020-6-19
  */
 //% color="#ff6800" weight=10 icon="\uf1eb"
-namespace irRemote {
+namespace ИК_пульт {
     /**
      * define a IR receiver class
      */
@@ -173,7 +173,7 @@ namespace irRemote {
      * Write the date: 2020-6-19
      */
     //% blockId="infrared_connect"
-    //% block="подключить IR-приемник к контакту %IR_pin"
+    //% block="подключить ИК-приемник к контакту %IR_pin"
     //% IR_pin.fieldEditor="gridpicker"
     //% IR_pin.fieldOptions.columns=4
     //% IR_pin.fieldOptions.tooltips="false"
@@ -193,7 +193,7 @@ namespace irRemote {
     //% button.fieldEditor="gridpicker"
     //% button.fieldOptions.columns=3
     //% button.fieldOptions.tooltips="false"
-    //% block="IR кнопка %button"
+    //% block="ИК кнопка %button"
     //% weight=98
     export function irButton(button: IrButton): number {
         return button as number;
@@ -206,7 +206,7 @@ namespace irRemote {
      * Write the date: 2020-6-19
      */
     //% blockId=infrared_pressed_button
-    //% block="IR кнопка"
+    //% block="ИК код"
     //% weight=97
     export function returnIrButton(): number {
         irDataProcessing();
